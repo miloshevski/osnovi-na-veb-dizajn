@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+.navbar-header {
+  width: fit-content;
+}
+.main-navigation li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+.main-navigation li {
+  display: inline;
+  margin: 15px;
+}
+.navbar-brand {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+#home {
+  height: 500px;
+  background-image: url("/zadaca_vtornik/images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .container .row {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home .container .row > div {
+  height: 60%;
+  width: 80%;
+  text-align: center;
+}
+#home > div > div > div > h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+#home > div > div > div > a.btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  background-color: #e58405;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 7px;
+  padding: 13px 30px;
+}
+#home > div > div > div > a.btn.btn-default {
+  background-color: #000;
+}
+#about {
+  height: 600px;
+  margin-top: 30px;
+}
+#about .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 95%;
+}
+#about > div > div > div:nth-child(1) {
+  width: 50%;
+}
+#about > div > div > div:nth-child(1) img {
+  width: 100%;
+}
+.col-md-6.col-sm-12 {
+  width: 50%;
+  padding: 40px;
+  height: 60%;
+}
+.col-md-6.col-sm-12 .about-des {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#about > div > div > div.col-md-6.col-sm-12 > div > h3 {
+  color: #e58405;
+  font-weight: 800;
+}
+#blog {
+  height: 650px;
+}
+#blog .container {
+  width: 100%;
+  height: 100%;
+  display: fle;
+}
+#blog .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#blog .container .row .blog-masonry {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+#blog .container .row .blog-masonry .post-masonry {
+  width: 30%;
+  padding: 10px;
+  border: solid 1px #c1c1c1;
+  border-radius: 5px;
+}
+#blog .container .row .blog-masonry .post-masonry img {
+  width: 100%;
+}
+.blog-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#blog > div > div > div > div > div > h3 > a {
+  text-decoration: none;
+  color: #000;
+}
+#blog > div > div > h2 {
+  margin: 30px;
+}
+#blog > div > div > h4 {
+  margin-bottom: 30px;
+}
+#contact {
+  height: 650px;
+}
+#contact .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact .container .row {
+  display: flex;
+  column-gap: 50px;
+}
+#contact > div > div > div.col-md-6.col-sm-6 > form > div.col-md-12.col-sm-12 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#contact > div > div > div:nth-child(2) > div {
+  padding: 20px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#contact > div > div > div.col-md-6.col-sm-6 > form {
+  width: 350px;
+}
+#submit {
+  padding: 10px 20px;
+  background-color: #b8b4af;
+  border: 0;
+  margin-top: 20px;
+  font-weight: 600;
+}
+footer {
+  height: 250px;
+  background-color: red;
+}
+footer .container {
+  width: 100%;
+  height: 100%;
+}
+footer .container .row {
+  display: flex;
+  justify-content: s;
+}
+footer .container .row > div {
+  width: 30%;
+}
