@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+nav {
+  height: 50px;
+  background-color: #202020;
+  position: absolute;
+  width: 100%;
+}
+nav .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.hero {
+  height: 650px;
+  width: 100%;
+  background-image: url("/images/jordan.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body > header > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body > header > div > div {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+body > header > div > div * {
+  width: 30%;
+}
+body > header > div > h1 {
+  color: #fff;
+}
+body > header > div > div > p {
+  border: solid 2px yellow;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 40%;
+}
+body > header > div > div > button {
+  background-color: rgb(255, 225, 0);
+  border-radius: 20px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 800;
+}
+body > section:nth-child(3) {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > section:nth-child(3) > div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  padding: 20px;
+}
+
+body > section:nth-child(3) > div > div {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "prv vtor" "tret tret";
+  gap: 10px;
+}
+body > section:nth-child(3) > div > div > div:nth-child(1) {
+  grid-area: prv;
+}
+body > section:nth-child(3) > div > div > div:nth-child(2) {
+  grid-area: vtor;
+}
+body > section:nth-child(3) > div > div > div:nth-child(3) {
+  grid-area: tret;
+  width: 100%;
+  background-color: rgb(184, 184, 184);
+  padding: 10px;
+}
+
+body > section:nth-child(3) > div > div > div {
+  text-align: center;
+}
+body > section.bg-light.py-5 {
+  height: 600px;
+}
+body > section.bg-light.py-5 > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body > section.bg-light.py-5 img {
+  width: 200px;
+}
+body > section.bg-light.py-5 > div > div {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+body > section.bg-light.py-5 > div > div > div.col-md-8 {
+  width: 70%;
+}
+body > section.bg-light.py-5 > div > div > div.col-md-4.services-image {
+  width: 30%;
+}
+body > section.bg-light.py-5 > div > div > div.col-md-8 > div > div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card.service-card.col-12:first-child {
+  grid-column: 1/-1;
+  overflow: hidden;
+  position: relative;
+}
+.card.service-card.col-12:first-child img {
+  position: absolute;
+  z-index: -1;
+  bottom: -5;
+  width: 100%;
+}
+body
+  > section.bg-light.py-5
+  > div
+  > div
+  > div.col-md-8
+  > div
+  > div
+  > div.card.service-card.col-12
+  > div {
+  background-color: #fff;
+  margin-top: 170px;
+  text-align: left;
+}
+body > section.bg-light.py-5 > div > div > div.col-md-4.services-image > img {
+  width: 100%;
+}
+body > section.py-5.bg-dark.text-light {
+  height: 600px;
+  background-color: #202020;
+}
+body > section.py-5.bg-dark.text-light img {
+  height: 200px;
+}
+body > section.py-5.bg-dark.text-light .container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body > section.py-5.bg-dark.text-light > div > div {
+  display: flex;
+  column-gap: 20px;
+}
+body > section.py-5.bg-dark.text-light > div > div > div {
+  text-align: center;
+  border: solid 1px #fff;
+  background-color: #fff;
+  border-radius: 5px;
+}
+body > section.py-5.bg-dark.text-light > div > h2 {
+  color: #fff;
+}
+body > section:nth-child(6) {
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+}
+body > section:nth-child(6) > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body > section:nth-child(6) > div > div > div:nth-child(1) > blockquote > * {
+  padding: 20px;
+  text-align: center;
+}
+body > section:nth-child(6) > div > div > div:nth-child(2) > blockquote > * {
+  padding: 20px;
+  text-align: center;
+}
+body > section:nth-child(6) > div > div footer {
+  background-color: #434343;
+}
+body > section:nth-child(7) {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > section:nth-child(7) > div {
+  background-color: #dcdada;
+  height: 100%;
+  width: 70%;
+}
+body > section:nth-child(7) > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 100%;
+  padding: 30px;
+  border-radius: 5px;
+}
+form * {
+  border: 0;
+}
+.form-row {
+  width: 30%;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  padding: 10px;
+}
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0b4ad2;
+  color: #fff;
+}
+footer {
+  height: 50px;
+}
+footer .container {
+  height: 100%;
+  background-color: #434343;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer * {
+  color: #fff;
+}
