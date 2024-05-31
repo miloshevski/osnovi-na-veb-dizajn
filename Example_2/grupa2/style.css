@@ -1,0 +1,169 @@
+body {
+  background-color: #00496c;
+}
+#div-top {
+  background: url("./img/cover_top.png") no-repeat;
+  height: 500px;
+  padding-left: 40px;
+}
+.container {
+  width: 770px;
+  background: url("./img/cover.png") repeat;
+  margin: auto;
+  height: 1715px;
+}
+#div-top header {
+  float: left;
+  width: 330px;
+}
+#div-summary {
+  float: right;
+  width: 240px;
+  margin-right: 120px;
+  margin-top: 40px;
+}
+#div-summary p:nth-of-type(2) {
+  position: absolute;
+  width: 62px;
+  margin-top: -164px;
+  padding: 10px 14px;
+  height: 131px;
+  margin-left: 235px;
+  font-size: 12px;
+  background: url(./img/bookmark.jpg) no-repeat;
+  color: white;
+}
+#div-summary p:nth-of-type(2) a {
+  color: white;
+}
+#div-introduction {
+  clear: both;
+}
+#div-introduction h3 {
+  float: left;
+  height: 105px;
+  margin-left: 131px;
+}
+#div-introduction p {
+  float: right;
+  margin-right: 40px;
+  width: 330px;
+}
+#div-top header h1 {
+  display: none;
+}
+#div-top header h2 {
+  background: url("./img/game-of-thrones.jpg") no-repeat;
+  height: 71px;
+  padding-top: 80px;
+  margin-top: 50px;
+  margin-left: 30px;
+  color: gray;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+#div-about {
+  height: 300px;
+}
+#div-about h3 {
+  float: right;
+  height: 148px;
+  margin-right: 171px;
+  visibility: visible;
+}
+/*#div-about h3:after
+{
+    float:right;
+    height: 148px;
+    content: 'What is the plot about';
+    visibility: visible;
+    color: black;
+}*/
+#div-about p {
+  float: left;
+  margin-left: 40px;
+  width: 330px;
+}
+#div-people {
+  height: 330px;
+  margin-top: 40px;
+}
+#div-people h3 {
+  float: left;
+  height: 140px;
+  margin-left: 180px;
+}
+#div-people p {
+  float: right;
+  margin-right: 40px;
+  width: 330px;
+}
+#div-people p:nth-of-type(2) {
+  margin-top: -16px;
+}
+#div-people2 {
+  height: 415px;
+  width: 410px;
+  float: right;
+  margin-top: 30px;
+}
+#div-people2 p {
+  float: right;
+  margin-right: 40px;
+  width: 330px;
+  margin-top: -16px;
+}
+.wrapper {
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: -615px;
+}
+footer {
+  clear: both;
+  float: right;
+  height: 100px;
+  width: 770px;
+  background: url(./img/cover_bot.png) no-repeat 0px -16px;
+}
+footer a:first-of-type {
+  margin-left: 440px;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+#div-introduction {
+  background: url("./img/img_1.jpg") no-repeat 0px 50px;
+  height: 391px;
+}
+#div-about {
+  background: url("./img/img_2.jpg") no-repeat 400px 50px;
+  height: 300px;
+}
+#div-people {
+  background: url("./img/img_3.jpg") no-repeat 50px 50px;
+}
+.navigation ul {
+  list-style-image: url("./img/bull.png");
+}
+.navigation ul li a {
+  color: #00496c;
+  text-decoration: none;
+}
+#div-backstage-links {
+  padding-left: 21px;
+  background: url(./img/notes.jpg) no-repeat;
+  width: 252px;
+  height: 249px;
+  padding-top: 10px;
+}
+#div-backstage-links ul li {
+  list-style-type: none;
+}
+#div-backstage-links ul li a {
+  text-decoration: none;
+}
